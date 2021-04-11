@@ -1,0 +1,26 @@
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <title></title>
+<style id="system" type="text/css">h1,h2,h3,h4,h5,h6,p,blockquote {    margin: 0;    padding: 0;}body {    font-family: "Helvetica Neue", Helvetica, "Hiragino Sans GB", Arial, sans-serif;    font-size: 13px;    line-height: 18px;    color: #737373;    margin: 10px 13px 10px 13px;}a {    color: #0069d6;}a:hover {    color: #0050a3;    text-decoration: none;}a img {    border: none;}p {    margin-bottom: 9px;}h1,h2,h3,h4,h5,h6 {    color: #404040;    line-height: 36px;}h1 {    margin-bottom: 18px;    font-size: 30px;}h2 {    font-size: 24px;}h3 {    font-size: 18px;}h4 {    font-size: 16px;}h5 {    font-size: 14px;}h6 {    font-size: 13px;}hr {    margin: 0 0 19px;    border: 0;    border-bottom: 1px solid #ccc;}blockquote {    padding: 13px 13px 21px 15px;    margin-bottom: 18px;    font-family:georgia,serif;    font-style: italic;}blockquote:before {    content:"C";    font-size:40px;    margin-left:-10px;    font-family:georgia,serif;    color:#eee;}blockquote p {    font-size: 14px;    font-weight: 300;    line-height: 18px;    margin-bottom: 0;    font-style: italic;}code, pre {    font-family: Monaco, Andale Mono, Courier New, monospace;}code {    background-color: #fee9cc;    color: rgba(0, 0, 0, 0.75);    padding: 1px 3px;    font-size: 12px;    -webkit-border-radius: 3px;    -moz-border-radius: 3px;    border-radius: 3px;}pre {    display: block;    padding: 14px;    margin: 0 0 18px;    line-height: 16px;    font-size: 11px;    border: 1px solid #d9d9d9;    white-space: pre-wrap;    word-wrap: break-word;}pre code {    background-color: #fff;    color:#737373;    font-size: 11px;    padding: 0;}@media screen and (min-width: 768px) {    body {        width: 748px;        margin:10px auto;    }}</style><style id="custom" type="text/css"></style></head>
+<body><h1>A Comprehensive Survey on Graph Neural Networks</h1>
+<h2>总结</h2>
+<ul>
+<li><a href="https://arxiv.org/abs/1901.00596">源文章</a></li>
+<li><a href="https://blog.csdn.net/weixin_35479108/article/details/86308808?utm_source=app&amp;app_version=4.5.7">翻译原文</a></li>
+<li>作者：Zonghan Wu, Shirui Pan, Member, IEEE, Fengwen Chen, Guodong Long, Chengqi Zhang, Senior Member, IEEE, Philip S. Yu, Fellow, IEEE</li>
+<li>一句话总结：提供了GNN的分类方法，总结了目前现有的各种图网络架构，讨论了图神经网络在各个领域的应用，总结了现有算法在不同任务中的开源代码，并提出了领域的潜在研究方向。</li>
+</ul>
+<h2>Abstract</h2>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;近年来，深度学习彻底改变了很多机器学习任务，从图像分类，视频处理到语音识别，自然语言处理等，但是通常来说，这些任务的数据都是欧式数据。现实中，很多数据都是非线性的，不是欧式数据，因此被表示为数据之间复杂关系和相互依赖的图结构。
+
+</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;图数据的复杂性给现有的机器学习算法带来了重大挑战。最近，出现了许多关于扩展图数据的深度学习方法的研究。本文对图神经网络（GNNs）在数据挖掘和机器学习方面的应用做了全面概述。提出一种新的分类方法对GNNs各种方法进行分类。着眼于图卷积网络(GCN),回顾了一些最近提出来的新的架构，包括Graph attention networks（图注意力网络），Graph autoencoders（图自编码），Graph generative networks（图生成网络）以及Graph spatial-temporal networks（图时空网络）。
+
+</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;另外，进一步讨论了图神经网络在各个领域的应用，总结了现有算法在不同任务中的开源代码，并提出了领域的潜在研究方向。
+
+</p>
+<h2>Introduction</h2>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;神经网络近期的成功推动了模式识别和数据挖掘的研究，许多机器学习任务，例如目标检测，机器翻译，语音识别，曾经都严重依赖棘手的特征工程提取数据集的特征，现在已经被端到端的学习模式彻底改变，也就是卷积神经网络（CNN），长短时记忆网络（LSTM），和自编码（AE）。深度学习在许多领域的成功部分归功于快速发展的计算资源(如GPU)和大量训练数据，部分归功于深度学习从欧氏数据(如图像、文本和视频)中提取有效的数据表示。以图像分析为例，图像为欧式空间的规则表示，CNN能够利用图像数据的平移不变性，局部连结性和组合性，也就是CNN能够为各种图像分析任务提取整个数据集共享的局部特征。
+Edit By <a href="http://mahua.jser.me">MaHua</a></p>
+</body></html>
