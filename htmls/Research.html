@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Research@MoAI</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="shortcut icon" href="../img/moai.ico">
+</head>
+<head>
+    <style>
+        .container {
+            display: flex;
+            justify-content: space-between;
+        }
+        .image-side {
+            flex-basis: 25%;
+            position: relative;
+            box-shadow: 10px 10px 5px grey;
+        }
+        .label {
+            position: relative;
+            right: 0%; 
+            bottom: 36%;
+            padding: 3px;
+            font-size: 12px;
+            background-color: skyblue;
+            width: 30%;
+        }
+        .text-side {
+            flex-basis: 75%;
+        }
+    </style>
+</head>
+<body>
+    <header class="header-background">
+        <h1>MoAI @ ZJU</h1>
+    </header>
+
+    <section id="welcome">
+        <nav>
+            <ul>
+                <li><a href="#protein">Biomolecule</a></li>
+                <li><a href="#drug">Drug</a></li>
+                <li><a href="#crystal">Material</a></li>
+                <li><a href="#cv">Computer Vision</a></li>
+            </ul>
+        </nav>
+    </section>
+
+    <section id="protein">
+        <h2>Biomolecule Design (Protein, RNA, DNA)</h2>
+        <div class="container">
+            <div class="image-side">
+            <img src="./abstract/FADiff.png" border="0" width="240" style="max-width: 100%; height: auto;">
+            <div class="label">ICML'24</div>
+            </div>
+            <div class="text-side">
+                <ul>
+                    <strong>Floating Anchor Diffusion Model for Multi-motif Scaffolding</strong> <br>
+                    <strong>Ke Liu</strong>, Shuaike Shen, Weian Mao, Xiaoran Jiao, Zheng Sun, Hao Chen, Chunhua Shen. <br>
+                    Proc. International Conference on Machine Learning (ICML'24), 2024. <br>
+                    <a href="https://github.com/AI4MOL/FADiff">[code]</a> <a href="https://zjukeliu.github.io">[paper]</a> <a  href="bibs/FADiff.bib">[bib]</a> <a  href="../projects/FADiff/index.html">[Project Page]</a>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section id="crystal">
+        <h2>Material Discovery</h2>
+        <div class="container">
+            <div class="image-side">
+                <img src="./abstract/S2SNet.png" border="0" width="240">
+                <div class="label">IJCAI'22</div>
+            </div>
+            <div class="text-side">
+                <ul>
+                    <strong> S2SNet: A Pretrained Neural Network for Superconductivity Discovery</strong> <br>
+                    Ke Liu, Kaifan Yang, Jiahong Zhang, Rux Xu. <br>
+                    Proc. International Joint Conference on Artificial Intelligence (IJCAI'22), 2022. <br>
+                    <a href="https://github.com/zjuKeLiu/S2SNet">[code]</a> <a href="https://www.ijcai.org/proceedings/2022/708">[paper]</a> <a href="https://www.ijcai.org/proceedings/2022/bibtex/0708">[bib]</a>
+                </ul>
+            </div>
+        </div>
+        <br>
+        <div class="container">
+            <div class="image-side">
+                <img src="./abstract/PCVAE.png" border="0" width="240">
+                <div class="label">IJCNN'23</div>
+            </div>
+            <div class="text-side">
+                <ul>
+                    <strong> PCVAE: a Physics-Informed Neural Network for Determining the Symmetry and Geometry of Crystals</strong> <br>
+                    Ke Liu, Shangde Gao, Kaifan Yang, Yuqiang Han. <br>
+                    Proc. International Joint Conference on Neural Networks (IJCNN'23) 2023. <br>
+                    (Oral presentation) <br>
+                    <a href="https://github.com/zjuKeLiu/PCVAE">[code]</a> <a href="https://ieeexplore.ieee.org/document/10191051">[paper]</a> <a href="bibs/pcvae.bib">[bib]</a>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section id="drug">
+        <h2>Drug Discovery</h2>
+        <div class="container">
+            <div class="image-side">
+                <img src="./abstract/GenDA.png" border="0" width="240">
+                <div class="label">BioEng</div>
+            </div>
+            <div class="text-side">
+                <ul>
+                    <strong>Low-Data Drug Design with Few-Shot Generative Domain Adaptation</strong> <br>
+                    Ke Liu, Yuqiang Han, Zhichen Gong, Hongxia Xu. <br>
+                    BioEngineering.<br>
+                    <a href="https://github.com/zjuKeLiu/Mol-GenDA">[code]</a> <a href="https://www.mdpi.com/2306-5354/10/9/1104">[paper]</a> <a href="bibs/GEViT.bib">[bib]</a>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section id="cv">
+        <h2>Computer Vision</h2>
+        <div class="container">
+            <div class="image-side">
+                <img src="./abstract/GEViT.png" border="0" width="240">
+                <div class="label">UAI'24</div>
+            </div>
+            <div class="text-side">
+                <ul>
+                    <strong> Group Equivariant Vision Transformer </strong><br>
+                    Rux Xu*, Kaifan Yang*, Ke Liu*✉️, Fengxiang He. <br>
+                    Proc. Conference on Uncertainty in Artificial Intelligence (UAI'23), 2023. <br>
+                    <a href="https://github.com/zjuKeLiu/GEVit">[code]</a> <a href="https://openreview.net/forum?id=uVG_7x41bN">[paper]</a> <a href="bibs/GEViT.bib">[bib]</a>
+                </ul>
+            </div>
+        </div>
+        <br>
+        <div class="container">
+            <div class="image-side">
+                <img src="./abstract/CKA.png" border="0" width="240">
+                <div class="label">Info Sci</div>
+            </div>
+            <div class="text-side">
+                <ul>
+                    <strong> Collaborative knowledge amalgamation: Preserving discriminability and transferability in unsupervised learning </strong><br>
+                    Shangde Gao*, Yichao Fu*, Ke Liu*, Wei Gao, Hongxia Xu, Jian Wu, Yuqiang Han <br>
+                    Information Sciences <br>
+                    <a href="https://www.sciencedirect.com/science/article/abs/pii/S0020025524004778">[paper]</a> <a href="bibs/pcvae.bib">[bib]</a>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section id="team">
+        * denotes equal contricbution, ✉️ denotes corresponding author.
+        <h2>.</h2>
+        <ul>
+            <li>
+                copyright©MoAI
+            </li>
+        </ul>
+    </section>
+    <footer>
+        <p>copyright©MoAI</p>
+    </footer>
+</body>
+</html>

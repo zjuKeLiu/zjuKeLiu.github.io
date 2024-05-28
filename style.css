@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 10; /* 移除默认的边距 */
+    padding: 0; /* 移除默认的内填充 */
+}
+
+.header-background {
+    background-image: url('img/back.jpeg'); /* 替换成你的实际图片路径 */
+    background-size: cover; /* 背景图片覆盖整个宽度 */
+    background-position: center; /* 背景图片居中 */
+    display: flex; /* 开启弹性盒布局 */
+    justify-content: center; /* 水平居中 */
+    align-items: center; /* 垂直居中 */
+    color: rgb(255, 255, 255); /* 文字颜色设置为白色 */
+    height: 120px; /* 头部区域高度 */
+    text-align: center;
+}
+
+header h1 {
+    margin: 0; /* 移除默认的外边距 */
+}
+
+nav ul li {
+    display: inline;
+    text-align: center;
+    margin: 0 10px;
+}
+
+nav ul li {
+    display: inline;
+    text-align: center;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    width: 100%;
+    display: inline; /* 将链接显示为内联块元素 */
+}
+
+section {
+    padding: 10px;
+    margin: 0 20px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
