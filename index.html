@@ -3,6 +3,74 @@
 <link rel="shortcut icon" href="img/zju.png">
 <title>Ke Liu's Homepage @ Zhejiang University</title>
 
+<head>
+    <style>
+        body {
+            font-family: 'Times New Roman', 'Apple Symbols', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        #layout-content {
+            margin: 25px auto;
+            max-width: 1200px;
+            padding: 0 15px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        td {
+            vertical-align: top;
+            padding: 10px;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin-bottom: 20px;
+        }
+        .image-side {
+            flex-basis: 100%;
+            max-width: 240px;
+            margin-bottom: 10px;
+            position: relative;
+            box-shadow: 10px 10px 5px grey;
+        }
+        .image-ke {
+            flex-basis: 100%;
+            max-width: 300px;
+            margin-left: -218px;
+            margin-bottom: -50px;
+            min-width: 0px;
+        }
+        .label {
+            position: absolute; 
+            right: 0; 
+            bottom: 3;
+            padding: 3px;
+            font-size: 12px;
+            background-color: skyblue; 
+        }
+        .text-side {
+            flex-basis: calc(100% - 260px);
+            max-width: calc(100% - 260px);
+        }
+        @media (max-width: 768px) {
+            .text-side {
+                flex-basis: 100%;
+                max-width: 100%;
+            }
+            .image-side {
+                flex-basis: 100%;
+                max-width: 100%;
+            }
+            .image-ke {
+                display: none;
+            }
+        }
+    </style>
+</head>
+
 <body>
 <div id="layout-content" style="margin-top:25px">
 
@@ -11,9 +79,8 @@
         <tr>
             <td width="670">
                 <div id="toptitle">
-                    <h1>Ke Liu<!--<img src="lk_chinesename.PNG" height="32px" style="margin-bottom:-5px" alt=''>--></h1>
+                    <h1>Ke Liu</h1>
                 </div>
-                <!-- <h3>Graduate Student</h3> -->
                 <p>
                     <FONT size=3 face="Times New Roman">Ph.D. Candidate</FONT><br>
                     <br>
@@ -23,7 +90,6 @@
                     Zhejiang University <br>
                     Zhejiang, China. 310058.<br>
                     <br>
-                    <!--Office: Room 108, Zetong Building, Yuquan Campus-->
                     
                     Github: <a href="https://github.com/zjuKeLiu">zjuKeLiu</a> & <a href="https://gitee.com/liuke20">Gitee</a>
                     <br>
@@ -33,7 +99,9 @@
                 </p>
             </td>
             <td>
-                <img src="./img/2024.jpg" border="0" width="220">
+                <div class="image-ke">
+                    <img src="./img/2024.jpg" border="0" width="100%">
+                </div>
             </td>
 
         </tr>
@@ -77,34 +145,10 @@
 <!--<p align="justify"><span style="color:#ff0000"><b>I am looking forward to working with researchers in the field of AI & Science (also a Ph.D. position)! Feel free to drop me an <a href="mailto:lk2017@zju.edu.cn">e-mail</a>. </b></span></p>
 -->
 <h2>Selected Publications<small></small></h2>
-<head>
-    <style>
-        .container {
-            display: flex;
-            justify-content: space-between;
-        }
-        .image-side {
-            flex-basis: 20%;
-            position: relative;
-            box-shadow: 10px 10px 5px grey;
-        }
-        .label {
-            position: absolute; 
-            right: 0; 
-            bottom: 3;
-            padding: 3px;
-            font-size: 12px;
-            background-color: skyblue; 
-        }
-        .text-side {
-            flex-basis: 80%;
-        }
-    </style>
-</head>
 
     <div class="container">
         <div class="image-side">
-           <img src="./paper_img/FADiff.png" border="0" width="240">
+           <img src="./paper_img/FADiff.png" border="0" width="100%">
            <div class="label">ICML'24</div>
         </div>
         <div class="text-side">
@@ -120,7 +164,7 @@
 <p>
     <div class="container">
         <div class="image-side">
-            <img src="./paper_img/GEViT.png" border="0" width="240">
+            <img src="./paper_img/GEViT.png" border="0" width="100%">
             <div class="label">UAI'23</div>
         </div>
         <div class="text-side">
@@ -136,7 +180,7 @@
 <p>
     <div class="container">
         <div class="image-side">
-            <img src="./paper_img/S2SNet.png" border="0" width="240">
+            <img src="./paper_img/S2SNet.png" border="0" width="100%">
             <div class="label">IJCAI'22</div>
         </div>
         <div class="text-side">
@@ -152,7 +196,7 @@
 <p>
     <div class="container">
         <div class="image-side">
-            <img src="./paper_img/PCVAE.png" border="0" width="240">
+            <img src="./paper_img/PCVAE.png" border="0" width="100%">
             <div class="label">IJCNN'23</div>
         </div>
         <div class="text-side">
